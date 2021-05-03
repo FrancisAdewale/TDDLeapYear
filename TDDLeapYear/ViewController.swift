@@ -9,15 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var userInput = String()
+    var userInput = Int()
     
-    private let setUpUserInput : UITextField = {
+        let setUpUserInput : UITextField = {
         
         let input = UITextField()
         input.translatesAutoresizingMaskIntoConstraints = false
         input.clipsToBounds = true
         input.layer.cornerRadius = 5.0
         input.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        input.layer.borderWidth = 3.0
         input.backgroundColor = .white
 //        input.addTarget(self, action: #selector(submittedLeapYear), for: .touchUpInside)
         
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
         
     }()
     
-    private let setUpButton: UIButton = {
+     let setUpButton: UIButton = {
         
         let btn = UIButton()
         btn.clipsToBounds = true
@@ -60,8 +61,7 @@ class ViewController: UIViewController {
     
     @objc func submittedLeapYear() {
         
-        userInput = setUpUserInput.text!
-        print(userInput)
+        userInput = Int(setUpUserInput.text!)!
         
         
     }

@@ -23,13 +23,6 @@
 			remoteGlobalIDString = 76B3C3F526403E9700F4E005;
 			remoteInfo = TDDLeapYear;
 		};
-		76B3C41826403E9900F4E005 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76B3C3EE26403E9700F4E005 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76B3C3F526403E9700F4E005;
-			remoteInfo = TDDLeapYear;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +36,6 @@
 		76B3C40C26403E9900F4E005 /* TDDLeapYearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDLeapYearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B3C41026403E9900F4E005 /* TDDLeapYearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDLeapYearTests.swift; sourceTree = "<group>"; };
 		76B3C41226403E9900F4E005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B3C41726403E9900F4E005 /* TDDLeapYearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDLeapYearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +47,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		76B3C40926403E9900F4E005 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76B3C41426403E9900F4E005 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,7 +70,6 @@
 			children = (
 				76B3C3F626403E9700F4E005 /* TDDLeapYear.app */,
 				76B3C40C26403E9900F4E005 /* TDDLeapYearTests.xctest */,
-				76B3C41726403E9900F4E005 /* TDDLeapYearUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,24 +134,6 @@
 			productReference = 76B3C40C26403E9900F4E005 /* TDDLeapYearTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		76B3C41626403E9900F4E005 /* TDDLeapYearUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76B3C42626403E9900F4E005 /* Build configuration list for PBXNativeTarget "TDDLeapYearUITests" */;
-			buildPhases = (
-				76B3C41326403E9900F4E005 /* Sources */,
-				76B3C41426403E9900F4E005 /* Frameworks */,
-				76B3C41526403E9900F4E005 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76B3C41926403E9900F4E005 /* PBXTargetDependency */,
-			);
-			name = TDDLeapYearUITests;
-			productName = TDDLeapYearUITests;
-			productReference = 76B3C41726403E9900F4E005 /* TDDLeapYearUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,10 +147,6 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					76B3C40B26403E9900F4E005 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 76B3C3F526403E9700F4E005;
-					};
-					76B3C41626403E9900F4E005 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 76B3C3F526403E9700F4E005;
 					};
@@ -205,7 +167,6 @@
 			targets = (
 				76B3C3F526403E9700F4E005 /* TDDLeapYear */,
 				76B3C40B26403E9900F4E005 /* TDDLeapYearTests */,
-				76B3C41626403E9900F4E005 /* TDDLeapYearUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,13 +182,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		76B3C40A26403E9900F4E005 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76B3C41526403E9900F4E005 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,13 +209,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76B3C41326403E9900F4E005 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -269,11 +216,6 @@
 			isa = PBXTargetDependency;
 			target = 76B3C3F526403E9700F4E005 /* TDDLeapYear */;
 			targetProxy = 76B3C40D26403E9900F4E005 /* PBXContainerItemProxy */;
-		};
-		76B3C41926403E9900F4E005 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 76B3C3F526403E9700F4E005 /* TDDLeapYear */;
-			targetProxy = 76B3C41826403E9900F4E005 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -487,46 +429,6 @@
 			};
 			name = Release;
 		};
-		76B3C42726403E9900F4E005 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88XF5QGDBG;
-				INFOPLIST_FILE = TDDLeapYearUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisAdewale.TDDLeapYearUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDDLeapYear;
-			};
-			name = Debug;
-		};
-		76B3C42826403E9900F4E005 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88XF5QGDBG;
-				INFOPLIST_FILE = TDDLeapYearUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisAdewale.TDDLeapYearUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDDLeapYear;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,15 +455,6 @@
 			buildConfigurations = (
 				76B3C42426403E9900F4E005 /* Debug */,
 				76B3C42526403E9900F4E005 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76B3C42626403E9900F4E005 /* Build configuration list for PBXNativeTarget "TDDLeapYearUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76B3C42726403E9900F4E005 /* Debug */,
-				76B3C42826403E9900F4E005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
