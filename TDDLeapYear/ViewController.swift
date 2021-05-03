@@ -61,8 +61,23 @@ class ViewController: UIViewController {
     
     @objc func submittedLeapYear() {
         
-    
         userInput = Int(setUpUserInput.text!)
+        
+        guard let input = userInput else { fatalError() }
+        
+        
+        if ((input % 4 == 0) && (input % 100 == 0) && (input % 400 == 0)) {
+            print("\(input) is a Leap Year")
+        } else if ((input % 4 == 0) && (input % 100 == 0)) {
+            print("\(input) is not a Leap Year")
+
+        } else if input % 4 == 0 {
+            print("\(input) is a Leap Year")
+
+        } else {
+            print("\(input) is not a Leap Year")
+
+        }
         
         
     }
