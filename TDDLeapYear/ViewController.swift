@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var userInput = Int()
+    var userInput : Int? = Int()
     
         let setUpUserInput : UITextField = {
         
@@ -61,7 +61,8 @@ class ViewController: UIViewController {
     
     @objc func submittedLeapYear() {
         
-        userInput = Int(setUpUserInput.text!)!
+    
+        userInput = Int(setUpUserInput.text!)
         
         
     }

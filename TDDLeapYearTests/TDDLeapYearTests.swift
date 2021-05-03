@@ -36,5 +36,21 @@ class TDDLeapYearTests: XCTestCase {
         XCTAssertEqual(sut?.userInput, 2004)
         
     }
+    
+    func test_doesNotReadInvalidinput() {
+        //given
+        
+        sut?.setUpUserInput.text = "djfbdjf"
+        
+        
+        //when
+        
+        sut?.submittedLeapYear()
+        
+        
+        //then
+        
+        XCTAssertNil(sut?.userInput)
+    }
 
 }
